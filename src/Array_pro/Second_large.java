@@ -1,7 +1,7 @@
 package Array_pro;
 
 public class Second_large {
-	
+
 	public static int getsecondlast(int arr[],int total)
 	{
 		int temp=0;
@@ -23,6 +23,7 @@ public class Second_large {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
          int arr[]= {15,20,25,30,75,10};
          int total= arr.length;
          System.out.println("Second last largest number is "+getsecondlast(arr,6));
